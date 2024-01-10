@@ -44,7 +44,8 @@ plt.text(0, 0, "The first figure is showing the average annual rainfall in the U
          "Student ID: 22049817", 
          ha='left', va='center', fontsize=14, wrap=True)
 plt.axis('off')
-plt.savefig("22049817.png",dpi=300)
+
 
 fig.suptitle('Climate Change Infographics Analysis', fontsize=16)
 fig.tight_layout(rect=[0, 0.03, 1, 0.95])
+plt.show()
